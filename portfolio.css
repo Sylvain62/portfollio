@@ -488,11 +488,11 @@ font-size: 1.5vmax;
     flex-direction: row;
 }
 
-.notion{
+/* .notion{
     margin-left: 25vmax;
     margin-top: -4vmax;
     justify-content: space-evenly;
-}
+} */
 
 .coor ul{
     margin-top: 9vmax

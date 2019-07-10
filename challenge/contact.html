@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="contact.css">
+    <title>Horlogerie2000</title>
+</head>
+
+<body>
+    <div id="haut">
+        <img id="olivier" src="img/olivier-logo.png" alt="logo olivier">
+
+        <div id="blocnav">
+            <a href="accueil.html">Accueil</a>
+            <a href="service.html">Services</a>
+            <a href="propos.html">A propos</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+    <div id="formulaire">
+        <form action="/ma-page-de-traitement" method="post">
+            <div>
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="user_name">
+            </div>
+            <div>
+                <label for="surname">Prénom :</label>
+                <input type="text" id="mail" name="user_name">
+            </div>
+            <div>
+                <label for="mail">E-mail :</label>
+                <input type="email" id="mail" name="user_mail">
+            </div>
+            <div>
+                <label for="phone">Téléphone (optionnel) :</label>
+                <input type="text" id="number" name="user_name">
+            </div>
+            <div>
+                <label for="msg">Message :</label> <br/> <textarea id="msg" name="user_message"></textarea>
+            </div>
+            <div class="button">
+                <button type="submit">Envoyer le message</button>
+            </div>
+        </form>
+        <div id="map"><iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2514.219458231763!2d1.8658192059926297!3d50.93815435239962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dc3f663ab9665f%3A0x7ce6336d693e1388!2sRue+Gutenberg%2C+62100+Calais!5e0!3m2!1sfr!2sfr!4v1559115812882!5m2!1sfr!2sfr"
+                width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div id="textee">
+            <p> OLIVIER <br/>9 rue Gutenberg 62100 Calais <br/> Tel: 08.36.65.65.65 </p>
+        </div>
+    </div>
+</body>
+
+</html>

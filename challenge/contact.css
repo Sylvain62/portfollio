@@ -1,0 +1,185 @@
+*{
+
+}
+
+@font-face{
+    font-family: "cinzel";
+    src: url("font/Cinzel-Regular.ttf");
+    
+}
+
+@font-face{
+    font-family: "montserrat";
+    src: url("font/Montserrat-LightItalic.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+a{
+    text-decoration: none;
+    font-family: "cinzel";
+    color: #F4F4F4;
+}
+
+a:hover{
+
+    background-color: #C0B283;
+
+}
+
+a:active{
+    background-color: #F4F4F4;
+    color: #373737;
+}
+
+/* correspond à l'en tete de page */
+#haut{
+    height: 10vh;
+    width: 100vw;
+    background-color: #373737;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    justify-content: space-between;
+    box-shadow: 3px 3px 3px 3px #373737;
+    background: rgb(55,55,55);
+    background: radial-gradient(circle, rgba(55,55,55,1) 0%, rgba(192,178,131,1) 48%, rgba(192,178,131,1) 49%, rgba(55,55,55,1) 100%);
+    
+}
+
+#olivier{
+    
+    width: 14vw;
+    margin-left: 2vw;
+    
+}
+
+
+#blocnav{
+    height: 10vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+#blocnav a{
+    height: 100%;
+    width: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* correspond à la zone de formulaire */
+input{
+    border: 3px solid #373733;
+    background-color: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    top: 10%;
+    left: 10%;
+    position: absolute;
+}
+
+#formulaire{
+    top: 15%;
+    left: 10%;
+    width: 40%;
+    height: 58%;
+    position: absolute;
+}
+
+form input{
+    width: 40vh;
+    height: 3vh;
+}
+
+textarea{
+    width: 62vh;
+    height: 15vh;
+    background-color: #F4F4F4);
+    border: 3px solid #373733;
+}
+
+label{
+    color: #F4F4F4
+}
+
+.button button{
+    left: 31%;
+    bottom: -23%;
+    position: absolute;
+    height: 15%;
+    border:none;
+	padding:15px 6px 15px 6px;
+    border-bottom:6px solid #dcd0c0;
+    border-right: 6px solid #dcd0c0;
+	font:bold 20px Arial;
+	color: #373733 ;;
+    background: rgba(246,233,198, 1);
+	box-shadow:4px 4px 4px #F4F4F4;
+    border-top:2px solid  rgba(246,233,198, 1);
+    font-family: "cinzel";
+    outline: none;
+}
+
+/*  correspond à la map + coordonnées */
+#map{
+    position: absolute;
+    left: 120%;
+    top: 10%;
+}
+
+.button button:hover{
+    cursor: pointer;
+    background-color: #C0B283;
+}
+
+.button button:active{
+    border-bottom: none;
+    border-top: 6px solid #dcd0c0;
+    border-left: 6px solid #dcd0c0;
+    border-right: none;
+    outline: none;
+    background-color: #373737;
+    color: #F4F4F4;
+    
+}
+
+#textee{
+    margin-left: 148%;
+    margin-top: 73%;
+    font-size: 30px;
+    height: 25vh;
+    width: 25vh;
+    
+}
+
+p{
+
+    color: #C0B283;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
